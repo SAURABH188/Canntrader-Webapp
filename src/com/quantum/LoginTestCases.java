@@ -149,5 +149,21 @@ public class LoginTestCases {
 		        WebElement passwordField = driver.findElement(By.cssSelector("input[type='password']"));
 		        String placeholder = passwordField.getAttribute("placeholder");
 		        assertTrue(placeholder.equals("Enter your password"), "Password placeholder does not match");
+		        
 }
+		    @Test(priority= 14)
+		    public void SuccessfulLogin() throws InterruptedException {
+		    	WebElement SignInPage = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[3]/a[1]"));
+		    	SignInPage.click();
+		    	 WebElement emailField = driver.findElement(By.xpath("//*[@id=\"email\"]"));
+		        WebElement passwordField = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/div[2]/span/p-password/div/input"));
+		        emailField.sendKeys("saurabhkumbhar187@gmail.com");
+		        Thread.sleep(3000);
+		        passwordField.sendKeys("Saurabh@7");
+		        Thread.sleep(3000);
+		    	 WebElement SigninTab = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/button"));
+		    	 SigninTab.click();
+		    	 Thread.sleep(3000);
+		    }	        
+		       
 }
