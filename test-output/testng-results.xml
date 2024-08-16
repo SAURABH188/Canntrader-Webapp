@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T21:49:41 IST" name="Default suite" finished-at="2024-08-14T21:49:57 IST" duration-ms="16366">
+  <suite started-at="2024-08-16T14:04:21 IST" name="Default suite" finished-at="2024-08-16T14:04:50 IST" duration-ms="28415">
     <groups>
     </groups>
-    <test started-at="2024-08-14T21:49:41 IST" name="Default test" finished-at="2024-08-14T21:49:57 IST" duration-ms="16366">
+    <test started-at="2024-08-16T14:04:21 IST" name="Default test" finished-at="2024-08-16T14:04:50 IST" duration-ms="28415">
       <class name="com.quantum.LoginTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quantum.LoginTestCases@7997b197]" started-at="2024-08-14T21:49:41 IST" name="setUp" finished-at="2024-08-14T21:49:47 IST" duration-ms="5734" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quantum.LoginTestCases@7997b197]" started-at="2024-08-16T14:04:21 IST" name="setUp" finished-at="2024-08-16T14:04:33 IST" duration-ms="12030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SuccessfulLogin()[pri:14, instance:com.quantum.LoginTestCases@7997b197]" started-at="2024-08-14T21:49:47 IST" name="SuccessfulLogin" finished-at="2024-08-14T21:49:56 IST" duration-ms="9657" status="PASS">
+        <test-method signature="SuccessfulLogin()[pri:14, instance:com.quantum.LoginTestCases@7997b197]" started-at="2024-08-16T14:04:33 IST" name="SuccessfulLogin" finished-at="2024-08-16T14:04:47 IST" duration-ms="13377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuccessfulLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.quantum.LoginTestCases@7997b197]" started-at="2024-08-14T21:49:56 IST" name="teardown" finished-at="2024-08-14T21:49:57 IST" duration-ms="880" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.quantum.LoginTestCases@7997b197]" started-at="2024-08-16T14:04:47 IST" name="teardown" finished-at="2024-08-16T14:04:50 IST" duration-ms="2879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

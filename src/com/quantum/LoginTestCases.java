@@ -157,13 +157,16 @@ public class LoginTestCases {
 		    	SignInPage.click();
 		    	 WebElement emailField = driver.findElement(By.xpath("//*[@id=\"email\"]"));
 		        WebElement passwordField = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/div[2]/span/p-password/div/input"));
-		        emailField.sendKeys("saurabhkumbhar187@gmail.com");
+		        emailField.sendKeys("k.patil6174@gmail.com");
 		        Thread.sleep(3000);
-		        passwordField.sendKeys("Saurabh@7");
+		        passwordField.sendKeys("Komalpat@8");
 		        Thread.sleep(3000);
 		    	 WebElement SigninTab = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/button"));
 		    	 SigninTab.click();
 		    	 Thread.sleep(3000);
+		    	 WebElement Homepageafterlogin = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[3]/a[2]/img"));
+		    	 Homepageafterlogin.isDisplayed();
+		     	 Thread.sleep(3000);
 		    }	        
 		       
 }
