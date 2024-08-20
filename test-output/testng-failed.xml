@@ -6,8 +6,8 @@
       <class name="com.quantum.LoginTestCases">
         <methods>
           <include name="teardown"/>
+          <include name="Loginwithinvalidcred"/>
           <include name="setUp"/>
-          <include name="testSignupLinkIsDisplayed"/>
         </methods>
       </class> <!-- com.quantum.LoginTestCases -->
     </classes>
