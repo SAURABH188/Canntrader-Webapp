@@ -4,7 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import java.util.concurrent.TimeUnit;
 
-
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -167,38 +167,25 @@ public class LoginTestCases {
 		    	 WebElement Homepageafterlogin = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[3]/a[2]/img"));
 		    	 Homepageafterlogin.isDisplayed();
 		     	 Thread.sleep(3000);
-		    }	
+		  
+		
+}
 		    @Test(priority= 14)
-		    public void SuccessfulLoginn() throws InterruptedException {
+		    public void Loginwithinvalidcred() throws InterruptedException {
 		    	WebElement SignInPage = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[3]/a[1]"));
 		    	SignInPage.click();
 		    	 WebElement emailField = driver.findElement(By.xpath("//*[@id=\"email\"]"));
 		        WebElement passwordField = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/div[2]/span/p-password/div/input"));
 		        emailField.sendKeys("k.patil6174@gmail.com");
 		        Thread.sleep(3000);
-		        passwordField.sendKeys("Komalpat@8");
+		        passwordField.sendKeys("Komalpat@");
 		        Thread.sleep(3000);
 		    	 WebElement SigninTab = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/button"));
 		    	 SigninTab.click();
-		    	 Thread.sleep(3000);
-		    	 WebElement Homepageafterlogin = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[3]/a[2]/img"));
-		    	 Homepageafterlogin.isDisplayed();
-		     	 Thread.sleep(3000);
-		    }	        
-		    @Test(priority= 14)
-		    public void SuccessfulLoginbn() throws InterruptedException {
-		    	WebElement SignInPage = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[3]/a[1]"));
-		    	SignInPage.click();
-		    	 WebElement emailField = driver.findElement(By.xpath("//*[@id=\"email\"]"));
-		        WebElement passwordField = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/div[2]/span/p-password/div/input"));
-		        emailField.sendKeys("k.patil6174@gmail.com");
-		        Thread.sleep(3000);
-		        passwordField.sendKeys("Komalpat@8");
-		        Thread.sleep(3000);
-		    	 WebElement SigninTab = driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/form/button"));
-		    	 SigninTab.click();
-		    	 Thread.sleep(3000);
-		    	 WebElement Homepageafterlogin = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[3]/a[2]/img"));
-		    	 Homepageafterlogin.isDisplayed();
-		     	 Thread.sleep(3000);
+		    	 
+		    	 WebElement Errormessage = driver.findElement(By.xpath("//*[@id=\"toast-container\"]"));
+		    	 Errormessage.isDisplayed();
+		         Thread.sleep(3000);
+		         
+}
 }
