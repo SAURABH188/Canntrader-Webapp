@@ -3,7 +3,6 @@ package com.quantum;
 import static org.testng.Assert.assertTrue;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +24,7 @@ public class LoginTestCases {
 		        driver = new ChromeDriver();
 		        driver.get(baseUrl);
 		  			  driver.manage().window().maximize();
-		  			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);	  			
+		  			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);	  		
 		  }
 		@AfterClass
 		public void teardown() {

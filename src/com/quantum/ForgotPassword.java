@@ -14,7 +14,6 @@ import org.testng.annotations.Test;
 public class ForgotPassword {
 	private WebDriver driver;
     private String baseUrl = "https://cannatrader-frontend.vercel.app/home";
-	
 	 @BeforeClass
 	  //TEST CASE NO 1
 	  		public void setUp() {
