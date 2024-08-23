@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.quantum.ForgotPassword">
+      <class name="com.quantum.Homepage">
+        <methods>
+          <include name="testActiveLinkStyle"/>
+          <include name="testAddProductsLink"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.quantum.Homepage -->
+      <class name="com.quantum.LoginTestCases">
         <methods>
           <include name="teardown"/>
-          <include name="testResendLinkExists"/>
+          <include name="testPasswordFieldAcceptsInput"/>
+          <include name="testEmailFieldAcceptsInput"/>
           <include name="setUp"/>
+          <include name="testPageTitle"/>
         </methods>
-      </class> <!-- com.quantum.ForgotPassword -->
+      </class> <!-- com.quantum.LoginTestCases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

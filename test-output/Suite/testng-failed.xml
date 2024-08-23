@@ -3,11 +3,21 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.quantum.Homepage">
+        <methods>
+          <include name="testActiveLinkStyle"/>
+          <include name="testAddProductsLink"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.quantum.Homepage -->
       <class name="com.quantum.LoginTestCases">
         <methods>
           <include name="teardown"/>
+          <include name="testPasswordFieldAcceptsInput"/>
+          <include name="testEmailFieldAcceptsInput"/>
           <include name="setUp"/>
-          <include name="testSignupLinkNavigatesToSignupPage"/>
+          <include name="testPageTitle"/>
         </methods>
       </class> <!-- com.quantum.LoginTestCases -->
     </classes>
