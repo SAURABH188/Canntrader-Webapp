@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.quantum.SignUp">
+      <class name="com.quantum.LoginTestCases">
         <methods>
-          <include name="setUp"/>
-          <include name="testSuccessfulSignUp"/>
           <include name="teardown"/>
+          <include name="SuccessfulLogin"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.quantum.SignUp -->
+      </class> <!-- com.quantum.LoginTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
