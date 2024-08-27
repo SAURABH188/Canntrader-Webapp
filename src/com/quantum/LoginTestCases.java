@@ -43,6 +43,9 @@ public class LoginTestCases {
 	        WebElement homeLink = driver.findElement(By.xpath("/html/body/app-root/app-header/div[1]/header/div[1]/img"));
 	        AssertJUnit.assertTrue(homeLink.isDisplayed());
 	        Thread.sleep(3000);
+	        Thread.sleep(3000);
+	        Thread.sleep(3000);
+	    	
 	
 	    }
 		@Test (priority= 2)
