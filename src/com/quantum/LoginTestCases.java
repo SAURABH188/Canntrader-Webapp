@@ -45,7 +45,7 @@ public class LoginTestCases {
 	        Thread.sleep(3000);
 	        Thread.sleep(3000);
 	        Thread.sleep(3000);
-	    	
+	        Thread.sleep(3000);
 	
 	    }
 		@Test (priority= 2)
