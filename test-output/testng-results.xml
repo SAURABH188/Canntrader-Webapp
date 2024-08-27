@@ -2,24 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-27T12:08:10 IST" name="Default suite" finished-at="2024-08-27T12:09:05 IST" duration-ms="55256">
-    <groups>
-    </groups>
-    <test started-at="2024-08-27T12:08:10 IST" name="Default test" finished-at="2024-08-27T12:09:05 IST" duration-ms="55256">
-      <class name="com.quantum.ForgotPassword">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.quantum.ForgotPassword@74a9c4b0]" started-at="2024-08-27T12:08:10 IST" name="setUp" finished-at="2024-08-27T12:08:55 IST" duration-ms="45277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testForgotPasswordLinkIsDisplayed()[pri:0, instance:com.quantum.ForgotPassword@74a9c4b0]" started-at="2024-08-27T12:08:55 IST" name="testForgotPasswordLinkIsDisplayed" finished-at="2024-08-27T12:09:04 IST" duration-ms="8184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testForgotPasswordLinkIsDisplayed -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.quantum.ForgotPassword@74a9c4b0]" started-at="2024-08-27T12:09:04 IST" name="teardown" finished-at="2024-08-27T12:09:05 IST" duration-ms="1361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.quantum.ForgotPassword -->
+
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
