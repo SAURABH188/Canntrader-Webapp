@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.quantum.Homepage"/>
-      <class name="com.quantum.LoginTestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

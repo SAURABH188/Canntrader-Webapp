@@ -7,19 +7,19 @@
         <methods>
           <include name="testActiveLinkStyle"/>
           <include name="testAddProductsLink"/>
+          <include name="testProfileLinkIsDisplayed"/>
+          <include name="testNotificationCountIsDisplayed"/>
+          <include name="testContactLink"/>
+          <include name="testChatLinkRedirects"/>
+          <include name="testProfileLinkRedirects"/>
+          <include name="testChatLinkIsDisplayed"/>
           <include name="setUp"/>
           <include name="teardown"/>
+          <include name="testHomeLink"/>
+          <include name="testProfileIconIsDisplayed"/>
+          <include name="testWishListLink"/>
         </methods>
       </class> <!-- com.quantum.Homepage -->
-      <class name="com.quantum.LoginTestCases">
-        <methods>
-          <include name="teardown"/>
-          <include name="testPasswordFieldAcceptsInput"/>
-          <include name="testEmailFieldAcceptsInput"/>
-          <include name="setUp"/>
-          <include name="testPageTitle"/>
-        </methods>
-      </class> <!-- com.quantum.LoginTestCases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
