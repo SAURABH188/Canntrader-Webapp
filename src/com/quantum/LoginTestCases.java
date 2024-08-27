@@ -48,7 +48,7 @@ public class LoginTestCases {
 	        Thread.sleep(3000);
 	        Thread.sleep(3000);
 	        //Changes in S1
-	        
+	        Thread.sleep(3000);
 	    	
 	
 	    }
