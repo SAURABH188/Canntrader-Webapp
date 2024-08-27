@@ -16,12 +16,13 @@ public class ForgotPassword {
     private String baseUrl = "https://cannatrader-frontend.vercel.app/home";
 	 @BeforeClass
 	  //TEST CASE NO 1
-	  		public void setUp() {
-			  System.setProperty("webdriver.chrome.driver", "C:\\Users\\SAURABH\\Downloads\\chromedriver-win64 (3)\\chromedriver-win64\\chromedriver.exe");
+	  		public void setUp() throws InterruptedException {
+			  System.setProperty("webdriver.chrome.driver", "C:\\Users\\komal\\Desktop\\Selenium Project\\Chromedrivers\\Chromedrivers 127\\chromedriver-win64\\chromedriver.exe");
 	        driver = new ChromeDriver();
 	        driver.get(baseUrl);
 	  			  driver.manage().window().maximize();
-	  			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);	  			
+	  			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);	  
+	  			 Thread.sleep(3000);
 	  }
 	@AfterClass
 	public void teardown() {
